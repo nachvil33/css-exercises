@@ -9,6 +9,7 @@
 }
 
 button {
+  transition: transform .3s ease-in-out;
   border-radius: 8px;
   border: none;
   background-color: #2563eb;
@@ -16,4 +17,8 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+}
+
+button:hover {
+  transform: scale(1.2)
 }
